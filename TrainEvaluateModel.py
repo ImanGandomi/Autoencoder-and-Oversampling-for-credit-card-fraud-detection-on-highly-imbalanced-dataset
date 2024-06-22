@@ -4,7 +4,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 
-class TrainEvaluateModel:
+class sssTrainEvaluateModel:
     def __init__(self):
         self.dataManager = DataManager.DataManager()
         self.autoencoder = AutoEncoder.AutoEncoder(learning_rate=0.01)
